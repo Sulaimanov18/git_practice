@@ -14,4 +14,13 @@ We have  code
    }
    return true;
    } 
-  
+ 
+ We add on more code :
+
+  public static String reverseStr(String word){
+  String reversed = "";
+  for(int i=word.lentgh()-1; i>=0; i-- ){
+  reversed+=word.charAt(i);
+  }
+  return reversed;
+  } 
